@@ -65,3 +65,22 @@ img {
     color: #000;
     background-color: #fff;
 }
+.vl-btn {
+    color: #fff;
+    background-color: #395c55;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .8em 1.8em;
+}
+.vl-btn:hover,
+.vl-btn:focus {
+    filter: brightness(1.2);
+}
+.vl-btn-primary {
+    background-color: #aaa000;
+}
+.vl-btn-hollow {
+    color: #395c55;
+    border: .15rem solid;
+    background-color: #fff;
+}
