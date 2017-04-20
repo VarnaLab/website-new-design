@@ -68,7 +68,6 @@ h6 {
 }
 .vl-page-nav li {
     display: flex;
-    font-size: 1.2rem;
 }
 .vl-page-nav a {
     flex-grow: 1;
