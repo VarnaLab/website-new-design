@@ -107,6 +107,26 @@ h6 {
     z-index: 10;
     margin-bottom: 3rem;
 }
+.vl-fancy-image {
+    position: relative;
+    z-index: 10;
+}
+.vl-fancy-image:after {
+    content: '';
+    background-image:
+    radial-gradient(
+        ellipse at center,
+        rgba(120, 80, 20, .7) 10%,
+        rgba(17, 42, 35, .96) 90%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.vl-fancy-image img {
+    filter: blur(1px) brightness(94%);
+}
 .vl-event-info {
     position: absolute;
     top: 50%;
@@ -115,6 +135,7 @@ h6 {
     text-align: center;
     color: #fff;
     font-weight: bold;
+    z-index: 20;
 }
 .vl-event-header h1 {
     color: #395c55;
