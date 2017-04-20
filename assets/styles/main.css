@@ -25,6 +25,20 @@ img {
     background-color: rgba(0, 0, 0, .2);
     border-bottom: .15rem solid #fff;
 }
+.vl-page-logo {
+    display: inline-block;
+    width: 3.96rem;
+    height: 5rem;
+    margin-top: .77rem;
+    color: #fff;
+    font-weight: bold;
+    background-image: url('images/logotype.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    overflow: hidden;
+    border: .15rem solid #fff;
+}
 .vl-page-nav {
     position: absolute;
     right: 1rem;
