@@ -123,6 +123,7 @@ h6 {
 .vl-fancy-image {
     position: relative;
     z-index: 10;
+    text-align: center;
 }
 .vl-fancy-image:after {
     content: '';
