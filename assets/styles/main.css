@@ -238,3 +238,12 @@ h6 {
 .vl-mission-etc:after {
   background-image: url('images/etc.svg');
 }
+.vl-brand-name:before,
+.vl-brand-name:after {
+  content: '[';
+  font-size: 1.2em;
+  padding: 0 .06em;
+}
+.vl-brand-name:after {
+  content: ']';
+}
