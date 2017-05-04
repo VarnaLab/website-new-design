@@ -176,9 +176,63 @@ h6 {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+.vl-mission,
 .vl-padded-text {
   padding: 1.5rem 2.5rem;
 }
 .vl-padded-text p {
   text-align: center;
+}
+.vl-mission {
+  color: #fff;
+  background-color: #395c55;
+}
+.vl-mission-elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.vl-mission-elements li {
+  flex-basis: 150px;
+  padding: .8em 1.8em;
+  padding-top: 1.2em;
+  border: .15rem solid;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.vl-mission-elements li:after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 40px;
+  background-color: #395c55;
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 40px);
+  background-size: auto 40px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+.vl-mission-learn:after {
+  background-image: url('images/learn.svg');
+}
+.vl-mission-work:after {
+  background-image: url('images/work.svg');
+}
+.vl-mission-teach:after {
+  background-image: url('images/teach.svg');
+}
+.vl-mission-play:after {
+  background-image: url('images/play.svg');
+}
+.vl-mission-hack:after {
+  background-image: url('images/hack.svg');
+}
+.vl-mission-etc:after {
+  background-image: url('images/etc.svg');
 }
