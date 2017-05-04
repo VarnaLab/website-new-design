@@ -114,6 +114,7 @@ h6 {
     border: .15rem solid;
     background-color: #fff;
 }
+.vl-jumbotron,
 .vl-next-event {
     position: relative;
     z-index: 10;
@@ -139,7 +140,7 @@ h6 {
 .vl-fancy-image img {
     filter: blur(1px) brightness(94%);
 }
-.vl-event-info {
+.vl-jumbotron-info {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -149,7 +150,7 @@ h6 {
     font-weight: bold;
     z-index: 20;
 }
-.vl-event-header h1 {
+.vl-jumbotron-header h1 {
     color: #395c55;
     background-color: #fff;
     margin: 0 2rem;
@@ -158,7 +159,7 @@ h6 {
     z-index: 10;
     white-space: nowrap;
 }
-.vl-event-header .vl-next-prefix {
+.vl-jumbotron-header .vl-next-prefix {
     color: #fff;
     background-color: transparent;
     position: absolute;
@@ -166,13 +167,13 @@ h6 {
     right: 0;
     font-size: .5em;
 }
-.vl-event-header h6 {
+.vl-jumbotron-header h6 {
     text-align: left;
     margin-top: .5em;
     text-indent: 2rem;
     font-style: italic;
 }
-.vl-event-info p {
+.vl-jumbotron-info p {
     margin-top: 2em;
     margin-bottom: 2em;
 }
